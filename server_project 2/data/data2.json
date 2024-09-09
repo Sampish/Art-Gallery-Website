@@ -1,0 +1,6 @@
+[
+  { "artistId": 4001, "name": "Edvard Munch", "birth": 1863, "death": 1944 },
+  { "artistId": 4002, "name": "Claude Monet", "birth": 1840, "death": 1926 },
+  { "artistId": 4003, "name": "Vincent Van Gogh", "birth": 1853, "death": 1890 },
+  { "artistId": 4004, "name": "Leonardo", "birth":null, "death": null}
+]

@@ -1,0 +1,162 @@
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 80px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+/* Making the cards organised */
+#art-data-container {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 200px; /* Fixed height */
+    width: 100%; /* Responsive width */
+    object-fit: cover; /* Ensures the image covers the area and is cropped to fit */
+}
+
+/* Making the cards themselves nicer */ 
+#imageModal .modal-content {
+    max-width: 90%; /* Optional: Adjust based on your preference */
+}
+#imageModal .modal-body .row {
+    align-items: center; /* Aligns items vertically center in their columns */
+}
+
+/* Making the Artwork creator form nicer */
+
+/* Style the form container */
+#createForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 ;
+    
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form labels */
+  #createForm label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  /* Style the form inputs */
+  #createForm input[type="text"],
+  #createForm input[type="url"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the form submit button */
+  #createForm button[type="submit"] {
+    background-color: rgb(2,0,36);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  /* Style the form submit button on hover */
+  #createForm button[type="submit"]:hover {
+    background-color: rgb(146, 142, 226);
+    color: white;
+  }
+  
+  /* Style the form row */
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the form row for smaller screens */
+  @media (max-width: 600px) {
+    .form-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #createForm label {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  
+    #createForm input[type="text"],
+    #createForm input[type="url"] {
+      margin-bottom: 10px;
+    }
+  
+    #createForm button[type="submit"] {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+  
+#art-data-container {
+  background-color: rgb(2,0,36);
+}
+
+#art-data-container {
+  margin: 0;
+}
+
+.card-section h1 {
+  text-align: center;
+  background-color: rgb(2,0,36);
+  margin: 0;
+  color: white;
+}
+
+.submission-form h2 {
+  text-align: center;
+  margin: 3%;
+
+}
+
+#artist-selector {
+  text-align: center;
+  margin-right:10%;
+}
+
+.form-select {
+  margin-left: 5%;
+  margin-bottom: 3%;
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1001,
+    "name": "The Scream",
+    "date": "1893",
+    "style": "Expressionism",
+    "artistId": 4001,
+    "url": "https://www.edvardmunch.org/assets/img/paintings/the-scream.jpg"
+  },
+  {
+    "id": 1002,
+    "name": "Despair",
+    "date": "1892",
+    "style": "Expressionism",
+    "artistId": 4001,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Edvard_Munch_-_Despair_%281894%29.jpg"
+  },
+  {
+    "id": 1003,
+    "name": "Melancholy",
+    "date": "1892",
+    "style": "Expressionism",
+    "artistId": 4001,
+    "url": "https://www.edvardmunch.org/assets/img/paintings/melancholy.jpg"
+  },
+  {
+    "id": 1004,
+    "name": "At the Coffee Table",
+    "date": "1883",
+    "style": "Impressionism",
+    "artistId": 4001,
+    "url": "https://uploads8.wikiart.org/images/edvard-munch/at-the-coffee-table-1883.jpg!Large.jpg"
+  },
+  {
+    "id": 1005,
+    "name": "Moonlight on the Shore",
+    "date": "1892",
+    "style": "Symbolism",
+    "artistId": 4001,
+    "url": "https://uploads1.wikiart.org/images/edvard-munch/moonlight-on-the-shore-1892.jpg"
+  },
+  {
+    "id": 1006,
+    "name": "Kiss",
+    "date": "1892",
+    "style": "Expressionism",
+    "artistId": 4001,
+    "url": "https://www.edvardmunch.org/assets/img/paintings/the-kiss.jpg"
+  },
+  {
+    "id": 1007,
+    "name": "Still Life With Bottles",
+    "date": "1862-1863",
+    "style": "Realism",
+    "artistId": 4002,
+    "url": "https://uploads2.wikiart.org/images/claude-monet/still-life-with-bottles-1863.jpg"
+  },
+  {
+    "id": 1008,
+    "name": "Fontainebleau Forest",
+    "date": "1865",
+    "style": "Impressionism",
+    "artistId": 4002,
+    "url": "https://uploads4.wikiart.org/images/claude-monet/fontainebleau-forest.jpg!Large.jpg"
+  },
+  {
+    "id": 1009,
+    "name": "Antibes in the Morning",
+    "date": "1888",
+    "style": "Impressionism",
+    "artistId": 4002,
+    "url": "https://uploads0.wikiart.org/images/claude-monet/antibes-in-the-morning(1).jpg!Large.jpg"
+  },
+  {
+    "id": 1010,
+    "name": "The Artist's Garden at Giverny",
+    "date": "1900",
+    "style": "Impressionism",
+    "artistId": 4002,
+    "url": "https://www.claude-monet.com/assets/img/paintings/the-artists-garden-at-giverny.jpg"
+  },
+  {
+    "id": 1011,
+    "name": "Woman with a Parasol - Madame Monet and Her Son",
+    "date": "1875",
+    "style": "Impressionism",
+    "artistId": 4002,
+    "url": "https://www.claude-monet.com/assets/img/paintings/woman-with-a-parasol.jpg"
+  },
+  {
+    "id": 1012,
+    "name": "The Japanese Bridge (The Bridge over the Water-Lily Pond)",
+    "date": "1900",
+    "style": "Impressionism",
+    "artistId": 4002,
+    "url": "https://uploads3.wikiart.org/images/claude-monet/the-japanese-bridge-the-bridge-over-the-water-lily-pond.jpg!Large.jpg"
+  },
+  {
+    "id": 1013,
+    "name": "Starry night",
+    "date": "1922-1924",
+    "style": "Expressionism",
+    "artistId": 4002,
+    "url": "https://uploads1.wikiart.org/images/edvard-munch/starry-night-1924.jpg!Large.jpg"
+  },
+  {
+    "id": 1014,
+    "name": "The Starry Night",
+    "date": "1889",
+    "style": "Post-Impressionism",
+    "artistId": 4003,
+    "url": "https://uploads4.wikiart.org/00142/images/vincent-van-gogh/the-starry-night.jpg!Large.jpg"
+  },
+  {
+    "id": 1015,
+    "name": "Branches with Almond Blossom",
+    "date": "1890",
+    "style": "Japonism",
+    "artistId": 4003,
+    "url": "https://uploads6.wikiart.org/images/vincent-van-gogh/branches-with-almond-blossom-1890(1).jpg!Large.jpg"
+  },
+  {
+    "id": 1016,
+    "name": "Starry Night Over the Rhône",
+    "date": "1888",
+    "style": "Post-Impressionism",
+    "artistId": 4003,
+    "url": "https://www.vincentvangogh.org/assets/img/paintings/the-starry-night-over-the-rhone.jpg"
+  },
+  {
+    "id": 1017,
+    "name": "Skull of a Skeleton with Burning Cigarette",
+    "date": "1885-1886",
+    "style": "Post-Impressionism",
+    "artistId": 4003,
+    "url": "https://uploads7.wikiart.org/00371/images/vincent-van-gogh/vincent-van-gogh-head-of-a-skeleton-with-a-burning-cigarette-google-art-project.jpg!Large.jpg"
+  },
+  {
+    "id": 1018,
+    "name": "Sower with Setting Sun",
+    "date": "1888",
+    "style": "Post-Impressionism",
+    "artistId": 4003,
+    "url": "https://uploads6.wikiart.org/images/vincent-van-gogh/sower-with-setting-sun-1888.jpg!Large.jpg"
+  },
+  {
+    "id": 1019,
+    "name": "The Potato Eaters",
+    "date": "1885",
+    "style": "Realism",
+    "artistId": 4003,
+    "url": "https://uploads3.wikiart.org/images/vincent-van-gogh/the-potato-eaters-1885-1.jpg!Large.jpg"
+  },
+  {
+    "id": 1020,
+    "name": "Mona Lisa",
+    "date": "1999",
+    "style": "INTERESTING",
+    "artistId": 4004,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/440px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+  }
+]

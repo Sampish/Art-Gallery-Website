@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "0dc59aae-a4ec-4391-827f-5386a0a002e6",
+		"name": "Art Gallery REST oppertions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33756036"
+	},
+	"item": [
+		{
+			"name": "get-all-art-work",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/get-all-art-work",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"get-all-art-work"
+					]
+				},
+				"description": "This endpoint allows you to retrieve all art works.\n\nUpon a successful execution, the server will respond with a status code of 200 and a JSON array containing the details of the art works, including their ID, name, date, style, artist ID, and URL."
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Artwork",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Mona Lisa\",\n    \"date\": \"1519\",\n    \"style\": \"realism\",\n    \"artist\": \"Leonardo da Vinci\",\n    \"url\": \"https://media.cnn.com/api/v1/images/stellar/prod/190430171751-mona-lisa.jpg?q=w_2000,c_fill\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/new-artwork",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"new-artwork"
+					]
+				},
+				"description": "This endpoint allows you to create a new artwork object.\n\nThis API endpoint (`POST /new-artwork`) facilitates the addition of new artwork records to an existing JSON-based database. It requires the client to provide details of the artwork, including name, date, style, artist ID, and an image URL. The operation checks for the presence of the data file, computes a new unique ID for the artwork, and attempts to save this new entry to the database. It handles errors by reverting changes if the update fails and provides appropriate responses based on the outcome of the operation."
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Artist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Sami\",\n    \"birth\": 2004,\n    \"death\": 0000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/artist/new-artist",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"artist",
+						"new-artist"
+					]
+				},
+				"description": "This API endpoint (`POST /new-artist`) enables the addition of new artist records to a JSON-based database. The client must provide details about the artist, such as name, birthdate, and date of death. The endpoint first verifies the presence of the required data file, then calculates a new unique ID for the artist and attempts to append this new entry to the database. It incorporates error handling to revert changes if the update process fails, ensuring data integrity and providing clear responses based on the operation's success or failure"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Artist Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/artist/get-all-artist",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"artist",
+						"get-all-artist"
+					]
+				},
+				"description": "\nThis endpoint makes an HTTP GET request to retrieve all artists. It returns a JSON array containing objects with artist details including artistId, name, birth, and death. The response status for the last execution was 200.\n"
+			},
+			"response": []
+		}
+	]
+}
